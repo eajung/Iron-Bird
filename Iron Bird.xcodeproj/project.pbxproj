@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C82D85131979D8440081FAC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82D85121979D8440081FAC5 /* Foundation.framework */; };
+		C82D85151979D8440081FAC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82D85141979D8440081FAC5 /* CoreGraphics.framework */; };
+		C82D85171979D8440081FAC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82D85161979D8440081FAC5 /* UIKit.framework */; };
+		C82D851D1979D8440081FAC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C82D851B1979D8440081FAC5 /* InfoPlist.strings */; };
+		C82D851F1979D8440081FAC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C82D851E1979D8440081FAC5 /* main.m */; };
+		C82D85231979D8440081FAC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C82D85221979D8440081FAC5 /* AppDelegate.m */; };
+		C82D85261979D8440081FAC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82D85241979D8440081FAC5 /* Main.storyboard */; };
+		C82D85291979D8440081FAC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C82D85281979D8440081FAC5 /* ViewController.m */; };
+		C82D852B1979D8440081FAC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82D852A1979D8440081FAC5 /* Images.xcassets */; };
+		C82D85321979D8440081FAC5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82D85311979D8440081FAC5 /* XCTest.framework */; };
+		C82D85331979D8440081FAC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82D85121979D8440081FAC5 /* Foundation.framework */; };
+		C82D85341979D8440081FAC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82D85161979D8440081FAC5 /* UIKit.framework */; };
+		C82D853C1979D8440081FAC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C82D853A1979D8440081FAC5 /* InfoPlist.strings */; };
+		C82D853E1979D8440081FAC5 /* Iron_BirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C82D853D1979D8440081FAC5 /* Iron_BirdTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C82D85351979D8440081FAC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C82D85071979D8440081FAC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C82D850E1979D8440081FAC5;
+			remoteInfo = "Iron Bird";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C82D850F1979D8440081FAC5 /* Iron Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iron Bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82D85121979D8440081FAC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C82D85141979D8440081FAC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C82D85161979D8440081FAC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C82D851A1979D8440081FAC5 /* Iron Bird-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Iron Bird-Info.plist"; sourceTree = "<group>"; };
+		C82D851C1979D8440081FAC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C82D851E1979D8440081FAC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C82D85201979D8440081FAC5 /* Iron Bird-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Iron Bird-Prefix.pch"; sourceTree = "<group>"; };
+		C82D85211979D8440081FAC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C82D85221979D8440081FAC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C82D85251979D8440081FAC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C82D85271979D8440081FAC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C82D85281979D8440081FAC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C82D852A1979D8440081FAC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C82D85301979D8440081FAC5 /* Iron BirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Iron BirdTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82D85311979D8440081FAC5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C82D85391979D8440081FAC5 /* Iron BirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Iron BirdTests-Info.plist"; sourceTree = "<group>"; };
+		C82D853B1979D8440081FAC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C82D853D1979D8440081FAC5 /* Iron_BirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Iron_BirdTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C82D850C1979D8440081FAC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82D85151979D8440081FAC5 /* CoreGraphics.framework in Frameworks */,
+				C82D85171979D8440081FAC5 /* UIKit.framework in Frameworks */,
+				C82D85131979D8440081FAC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82D852D1979D8440081FAC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82D85321979D8440081FAC5 /* XCTest.framework in Frameworks */,
+				C82D85341979D8440081FAC5 /* UIKit.framework in Frameworks */,
+				C82D85331979D8440081FAC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C82D85061979D8440081FAC5 = {
+			isa = PBXGroup;
+			children = (
+				C82D85181979D8440081FAC5 /* Iron Bird */,
+				C82D85371979D8440081FAC5 /* Iron BirdTests */,
+				C82D85111979D8440081FAC5 /* Frameworks */,
+				C82D85101979D8440081FAC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C82D85101979D8440081FAC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C82D850F1979D8440081FAC5 /* Iron Bird.app */,
+				C82D85301979D8440081FAC5 /* Iron BirdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C82D85111979D8440081FAC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C82D85121979D8440081FAC5 /* Foundation.framework */,
+				C82D85141979D8440081FAC5 /* CoreGraphics.framework */,
+				C82D85161979D8440081FAC5 /* UIKit.framework */,
+				C82D85311979D8440081FAC5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C82D85181979D8440081FAC5 /* Iron Bird */ = {
+			isa = PBXGroup;
+			children = (
+				C82D85211979D8440081FAC5 /* AppDelegate.h */,
+				C82D85221979D8440081FAC5 /* AppDelegate.m */,
+				C82D85241979D8440081FAC5 /* Main.storyboard */,
+				C82D85271979D8440081FAC5 /* ViewController.h */,
+				C82D85281979D8440081FAC5 /* ViewController.m */,
+				C82D852A1979D8440081FAC5 /* Images.xcassets */,
+				C82D85191979D8440081FAC5 /* Supporting Files */,
+			);
+			path = "Iron Bird";
+			sourceTree = "<group>";
+		};
+		C82D85191979D8440081FAC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C82D851A1979D8440081FAC5 /* Iron Bird-Info.plist */,
+				C82D851B1979D8440081FAC5 /* InfoPlist.strings */,
+				C82D851E1979D8440081FAC5 /* main.m */,
+				C82D85201979D8440081FAC5 /* Iron Bird-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C82D85371979D8440081FAC5 /* Iron BirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				C82D853D1979D8440081FAC5 /* Iron_BirdTests.m */,
+				C82D85381979D8440081FAC5 /* Supporting Files */,
+			);
+			path = "Iron BirdTests";
+			sourceTree = "<group>";
+		};
+		C82D85381979D8440081FAC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C82D85391979D8440081FAC5 /* Iron BirdTests-Info.plist */,
+				C82D853A1979D8440081FAC5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C82D850E1979D8440081FAC5 /* Iron Bird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82D85411979D8440081FAC5 /* Build configuration list for PBXNativeTarget "Iron Bird" */;
+			buildPhases = (
+				C82D850B1979D8440081FAC5 /* Sources */,
+				C82D850C1979D8440081FAC5 /* Frameworks */,
+				C82D850D1979D8440081FAC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Iron Bird";
+			productName = "Iron Bird";
+			productReference = C82D850F1979D8440081FAC5 /* Iron Bird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C82D852F1979D8440081FAC5 /* Iron BirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82D85441979D8440081FAC5 /* Build configuration list for PBXNativeTarget "Iron BirdTests" */;
+			buildPhases = (
+				C82D852C1979D8440081FAC5 /* Sources */,
+				C82D852D1979D8440081FAC5 /* Frameworks */,
+				C82D852E1979D8440081FAC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C82D85361979D8440081FAC5 /* PBXTargetDependency */,
+			);
+			name = "Iron BirdTests";
+			productName = "Iron BirdTests";
+			productReference = C82D85301979D8440081FAC5 /* Iron BirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C82D85071979D8440081FAC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					C82D852F1979D8440081FAC5 = {
+						TestTargetID = C82D850E1979D8440081FAC5;
+					};
+				};
+			};
+			buildConfigurationList = C82D850A1979D8440081FAC5 /* Build configuration list for PBXProject "Iron Bird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C82D85061979D8440081FAC5;
+			productRefGroup = C82D85101979D8440081FAC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C82D850E1979D8440081FAC5 /* Iron Bird */,
+				C82D852F1979D8440081FAC5 /* Iron BirdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C82D850D1979D8440081FAC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82D852B1979D8440081FAC5 /* Images.xcassets in Resources */,
+				C82D851D1979D8440081FAC5 /* InfoPlist.strings in Resources */,
+				C82D85261979D8440081FAC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82D852E1979D8440081FAC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82D853C1979D8440081FAC5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C82D850B1979D8440081FAC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82D85291979D8440081FAC5 /* ViewController.m in Sources */,
+				C82D85231979D8440081FAC5 /* AppDelegate.m in Sources */,
+				C82D851F1979D8440081FAC5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82D852C1979D8440081FAC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82D853E1979D8440081FAC5 /* Iron_BirdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C82D85361979D8440081FAC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C82D850E1979D8440081FAC5 /* Iron Bird */;
+			targetProxy = C82D85351979D8440081FAC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C82D851B1979D8440081FAC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82D851C1979D8440081FAC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C82D85241979D8440081FAC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82D85251979D8440081FAC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C82D853A1979D8440081FAC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82D853B1979D8440081FAC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C82D853F1979D8440081FAC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C82D85401979D8440081FAC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C82D85421979D8440081FAC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Iron Bird/Iron Bird-Prefix.pch";
+				INFOPLIST_FILE = "Iron Bird/Iron Bird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C82D85431979D8440081FAC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Iron Bird/Iron Bird-Prefix.pch";
+				INFOPLIST_FILE = "Iron Bird/Iron Bird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C82D85451979D8440081FAC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Iron Bird.app/Iron Bird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Iron Bird/Iron Bird-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Iron BirdTests/Iron BirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C82D85461979D8440081FAC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Iron Bird.app/Iron Bird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Iron Bird/Iron Bird-Prefix.pch";
+				INFOPLIST_FILE = "Iron BirdTests/Iron BirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C82D850A1979D8440081FAC5 /* Build configuration list for PBXProject "Iron Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82D853F1979D8440081FAC5 /* Debug */,
+				C82D85401979D8440081FAC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C82D85411979D8440081FAC5 /* Build configuration list for PBXNativeTarget "Iron Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82D85421979D8440081FAC5 /* Debug */,
+				C82D85431979D8440081FAC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C82D85441979D8440081FAC5 /* Build configuration list for PBXNativeTarget "Iron BirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82D85451979D8440081FAC5 /* Debug */,
+				C82D85461979D8440081FAC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C82D85071979D8440081FAC5 /* Project object */;
+}
